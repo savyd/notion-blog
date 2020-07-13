@@ -39,10 +39,10 @@ export default () => (
     <div className={sharedStyles.layout}>
       <div className={profilStyles.profil}>
         <img
-          src="/foto-profil.jpg"
+          src="/profil-img.jpg"
           height="85"
           width="250"
-          alt="Vercel + Notion"
+          alt="Sayyid Profil"
         />
 
         <h1>Hi, I'm Sayyid Haidar</h1>
