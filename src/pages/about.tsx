@@ -3,6 +3,7 @@ import ExtLink from '../components/ext-link'
 
 import sharedStyles from '../styles/shared.module.css'
 import contactStyles from '../styles/contact.module.css'
+import profilStyles from '../styles/profil.module.css'
 
 import GitHub from '../components/svgs/github'
 import Twitter from '../components/svgs/twitter'
@@ -36,15 +37,19 @@ export default () => (
   <>
     <Header titlePre="Contact" />
     <div className={sharedStyles.layout}>
-      <div className={contactStyles.avatar}>
-        <img src="/avatar.png" alt="avatar with letters JJ" height={60} />
+      <div className={profilStyles.profil}>
+        <img
+          src="/foto-profil.jpg"
+          height="85"
+          width="250"
+          alt="Vercel + Notion"
+        />
+
+        <h1>Hi, I'm Sayyid Haidar</h1>
       </div>
 
-      <h1 style={{ marginTop: 0 }}>Contact</h1>
-
       <div className={contactStyles.name}>
-        Sayyid Haidar - Backend Engineer @{' '}
-        <ExtLink href="https://skydu.id">Skydu</ExtLink>
+        Backend Engineer @ <ExtLink href="https://skydu.id">Skydu</ExtLink>
       </div>
 
       <div className={contactStyles.links}>
